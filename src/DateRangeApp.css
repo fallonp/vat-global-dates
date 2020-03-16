@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.25;
+  margin: 0 auto;
+  max-width: 56em;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  background: #a9d4ff;
+  font-size: 3em;
+}
+
+.content {
+  margin: 1em;
+  padding: 2em;
+}
+
+.what-happened {
+  color: #f35626;
+  background-image: linear-gradient(92deg, #f35626 0%, #feab3a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: hue 60s infinite linear;
+}
+
+@keyframes hue {
+  from {
+    filter: hue-rotate(0deg);
+  }
+
+  to {
+    filter: hue-rotate(-360deg);
+  }
+}
