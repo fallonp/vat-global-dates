@@ -1,5 +1,6 @@
 {
   "name": "vat-global-dates",
+  "homepage": "http://simplybestoffers.com/vat-global/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,10 +9,12 @@
     "@testing-library/user-event": "^7.1.2",
     "@wojtekmaj/react-daterange-picker": "^2.5.0",
     "axios": "^0.19.2",
+    "global": "^4.4.0",
     "prettier": "^1.19.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0",
+    "roast": "^2.3.14",
     "shortid": "^2.2.15"
   },
   "scripts": {
